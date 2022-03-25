@@ -2,7 +2,8 @@
 </script>
 
 <template>
-    <form name="contact" method="post" data-netlify="true">
+    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="contact" value="contact" />
         <div class="form" id="registro">
             <div class="form-title">
                 <p>Formulario de registro</p>
