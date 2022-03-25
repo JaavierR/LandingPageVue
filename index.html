@@ -7,6 +7,11 @@
   </head>
   <body>
     <div id="app"></div>
+    <form name="preview" netlify netlify-honeypot="preview-bot" hidden>
+      <input type="text" name="name" />
+      <input type="radio" name="panelist" />
+      <textarea name="question"></textarea>
+    </form>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
