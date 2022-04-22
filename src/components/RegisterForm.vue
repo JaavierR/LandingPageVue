@@ -11,15 +11,13 @@
       </h2>
       <div class="max-w-2xl mx-auto sm:rounded-md overflow-hidden shadow mt-12">
         <form
-          name="contact"
+          name="contact-form"
           method="POST"
           class="mx-auto p-10 space-y-4 bg-white"
-          netlify
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="contact" value="contact" />
-
+          <input type="hidden" name="form-name" value="contact-form" />
           <!-- Name -->
           <div>
             <label for="name" class="block text-sm font-medium text-gray-700"
@@ -83,7 +81,7 @@
                   id="pacient"
                   name="pacient"
                   type="radio"
-                  class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  class="focus:ring-green-500 h-4 w-4 text-green-600 border-gray-300"
                 />
                 <label
                   for="pacient"
@@ -97,7 +95,7 @@
                   id="nutri"
                   name="pacient"
                   type="radio"
-                  class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  class="focus:ring-green-500 h-4 w-4 text-green-600 border-gray-300"
                 />
                 <label
                   for="nutri"
