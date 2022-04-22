@@ -12,8 +12,9 @@
       <div class="max-w-2xl mx-auto sm:rounded-md overflow-hidden shadow mt-12">
         <form
           name="contact"
-          method="post"
+          method="POST"
           class="mx-auto p-10 space-y-4 bg-white"
+          netlify
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
