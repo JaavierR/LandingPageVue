@@ -42,10 +42,13 @@
 </template>
 
 <script setup>
+import imgTracking from "../assets/tracking.png";
+import imgSalad from "../assets/tracking.png";
+
 const incentives = [
   {
     name: "Seguimiento",
-    imageSrc: new URL("../assets/tracking.png", import.meta.url),
+    imageSrc: imgTracking,
     description:
       "¿Recuerdas que comiste hace tres semanas? Te ayudamos a llevar un registro de las porciones de alimentos que consumes. Información accesible por tu nutricionista para una asistencia más eficiente.",
   },
@@ -58,7 +61,7 @@ const incentives = [
   },
   {
     name: "Alimentos",
-    imageSrc: new URL("../assets/salad.png", import.meta.url),
+    imageSrc: imgSalad,
     description:
       "Toda la información que necesitas: grupos de alimentos y listas de alimentos con sus porciones. Lleva la pauta a dónde sea con tu celular.",
   },
