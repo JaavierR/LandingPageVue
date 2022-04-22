@@ -14,10 +14,10 @@
           name="contact-form"
           method="POST"
           class="mx-auto p-10 space-y-4 bg-white"
-          netlify
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
+          <input type="hidden" name="Contacto" value="contact-form" />
           <!-- Name -->
           <div>
             <label for="name" class="block text-sm font-medium text-gray-700"
