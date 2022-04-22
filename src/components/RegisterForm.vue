@@ -18,8 +18,6 @@
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="Contacto" value="contact-form" />
-
           <!-- Name -->
           <div>
             <label for="name" class="block text-sm font-medium text-gray-700"
