@@ -101,7 +101,7 @@
                   for="nutri"
                   class="ml-3 block text-sm font-medium text-gray-700"
                 >
-                  Soy nutri
+                  Soy nutricionista
                 </label>
               </div>
             </div>
